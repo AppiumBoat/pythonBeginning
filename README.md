@@ -1,4 +1,3 @@
-# pythonBeginning
-**Getting Started with python.**
-Getting Started with python.
+# Python Basics
+## **Getting Started with python.**
 

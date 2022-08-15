@@ -1,5 +1,3 @@
 # pythonBeginning
-element{
-  font-size: 75;
-Getting Started with python.
-}
+**Getting Started with python.**
+

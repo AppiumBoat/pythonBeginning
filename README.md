@@ -5,7 +5,15 @@ Let's start with installing python.
 
 ## **Installation of python**
 Before we drive into installing python, lets see some very basic commands that we use in cmd(command prompt) in window or terminal in Mac and Linux machines.
-  Most regularly used commands in Window machine are:
+
+    Most regularly used commands in Window machine are:
+    1. cd -> shows you the current file path
+    2. dir -> shows the files and folders under the current directory.
+    3. cd <file or folder name> -> to get into a file or folder present inside current directory e.g. cd Documents.
+    4. cd .. -> to move up(back) a directory.
+    5. cls .. -> to clear command prompt.
+  
+<sub>   Most regularly used commands in Window machine are:</sub>
 <sub>   1. cd -> shows you the current file path</sub>
 <sub>   2. dir -> shows the files and folders under the current directory.</sub>
 <sub>   3. cd <file or folder name> -> to get into a file or folder present inside current directory e.g. cd Documents.</sub>

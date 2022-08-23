@@ -26,7 +26,7 @@ print("BODMAS ((2*3)*(3*3)+10): ", ((2*3)*(3*3)+10))
 #	Avoid identifier like 'list' and 'str' which are part of python key words
 
 # Python uses dynamic typing
-# Unlike other languages where int variables cann't be assigned with str or any other data types
+# Unlike other languages where int variables cannot be assigned with str or any other data types
 # Python have dynamic assignment which mean a variable can hold number and later can be assigned with str
 # This have its own disadvantages as changing datatype wont throw error, therefore, one has
 # to be careful while assigning values to variables.

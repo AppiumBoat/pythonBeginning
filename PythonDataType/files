@@ -1,0 +1,89 @@
+ # Arithmetic operations
+x = 15
+y = 2
+# Addition
+print("Addition of two numbers: ", (x+y))
+
+# Subtraction
+print("Subtraction of two numbers: ", (x-y))
+
+# Division
+print("Division of two numbers: ", (x/y))
+
+# Multiplication
+print("Multiplication of two numbers: ", (x*y))
+
+# Modulo
+print("Modulo of two numbers: ", (x%y))
+
+# Power
+print("x to power y: ", (x**y))
+
+# BODMAS
+print("Without BODMAS: ", (x+y*x-y*x*y))
+print("With BODMAS: ", ((x+y)*(x-y)*(x*y)))
+
+
+# String operations in Python
+my_string = "abcdefghijklmnopqrstuvwxyz"
+# Indexing example
+print('\nString Indexing')
+print("Character @ position 1: ", my_string[1])
+print("Character @ position 5: ", my_string[5])
+print("Character @ position -1: ", my_string[-1])
+print("Character @ position 24: ", my_string[25])
+
+# Slicing example
+print('\nString Slicing')
+print("String @ 10 to 24: ", my_string[10:25])
+print("String @ 10 to ~: ", my_string[10:])
+print("String @ -10 to -20: ", my_string[-10:-20:-1])
+print("String @ reverse of string: ", my_string[::-1])
+
+# Escape Sequence
+print('\nString Escape Sequence')
+print("*New \nLine*")
+print("*Tab \t Between \t words*")
+
+# Length of string
+print('\nString Length')
+print("String length: ", len(my_string))
+
+# Concatenating string
+print('\nConcatenating String')
+my_str = "I love India"
+add_Str = "Hindustan"
+my_str = my_str[:-5]
+my_str = my_str + add_Str
+print("New string after concatenating: ", my_str)
+
+# Adding two string
+print('\nAdding two string')
+my_str = "String one "
+add_str = "String two"
+new_str = my_str + add_str
+print("New string after adding: ", new_str)
+
+# String multiplication
+print('\nMultiplying two string')
+my_str = "zx"
+print("String multiplication: ", my_str*8)
+
+# String vs Numbers
+print('\nString vs Numbers')
+x = 2
+y = 3
+print("Sum of two numbers: ", x+y)
+x = "2"
+y = "3"
+print("Concat two string: ", x+y)
+
+# String Methods
+print('\nString Methods')
+my_string = "Alphabet is google owner"
+print(my_string.lower())
+print(my_string.upper())
+print(my_string.split())
+my_string = "This is a string it will split from 'i'"
+print(my_string)
+print(my_string.split("i"))
